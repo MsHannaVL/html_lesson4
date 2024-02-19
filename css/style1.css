@@ -46,10 +46,8 @@ p {
   
   font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  padding: 12px 0px 4px 0px;
-
+  margin-top: 13px;
   color: #c6c7cc;
-  
   }
 
 form {
@@ -57,8 +55,7 @@ form {
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
-
-  
+  vertical-align: middle;
 }
 fieldset {
   border: 0;
@@ -89,9 +86,8 @@ legend {
   color: #395870;
   font-weight: 700;
   display: block;
-  margin-top: 0px;
-  margin-left: -1px;
   margin-bottom: -2px;
+  
   
 }
 .account-info input {
@@ -99,16 +95,18 @@ legend {
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
-  padding: 7px 4px 0px 0px;
-  margin: 8px 0px 4px -1px;
+  margin: 4px 0px 15px -1px;
+  vertical-align: middle;
   width: 100%;
+  height: 28px;
 }
 .account-info select {
   background: #fff;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
-  
+  height: 28px;
+  margin: 4px 0px 10px 0px;
   
 }
 .account-action {
@@ -116,10 +114,10 @@ legend {
   border-top: 1px solid #c6c7cc;
   text-align: center;
   margin: 0px 0px -5px 0px;
-  padding-top: 5px;
-  padding-bottom: 13px;
-  line-height: 2px;
-
+  padding-top: 17px;
+  padding-bottom: 29px;
+  line-height: 1em;
+  
 }
 .account-action .btn {
   background: linear-gradient(#49708f, #293f50);
@@ -127,34 +125,29 @@ legend {
   border: 0;
   color: #fff;
   cursor: pointer;
-  padding: 10px 20px 10px 20px;
-  margin: 8px 6px 5px 6px;
+  margin: 9px 6px 5px 6px;
   font-weight: bold;
-  
+  height: 35px;
+  width: 176px;
 }
 .account-action label {
   color: #7c7c80;
   font-size: 11px;
-  line-height: 15px;
 }
 input[type="text"], input[type="email"], input[type="password"],  select, textarea {
   width: 100%;
- 
-}
-input[type="checkbox"] {
-  margin: 15px 0px 0px 0px;
-  padding-bottom: 10px;
 }
 input[type="password"] {
   padding-top: 1px;
   padding-bottom: 10px;
+  height: 33px;
 }
 input.notnull {
   font-size: 11px;
   text-align: left;
   padding-top: 5px;
   padding-bottom: 3px;
-  padding-left: 5px;
+  padding-left: 4px;
 }
 select {
   padding-top: 6px;
