@@ -14,11 +14,11 @@ h3{
     font-size: 140%;
     font-weight: bold;
     color: #49708f;
-    margin: 25px 0px 18px 2px;  
+    margin: 24px 0px 17px 2px;  
 }
 h3.obr {
     font-size: 23px;
-    margin: -5px 0px 17px 3px;
+    margin: -8px 0px 18px 2px;
     letter-spacing: 0.3px;
 }
 h4 {
@@ -28,10 +28,10 @@ h4 {
     color: #49708f;
 }
 h4.sch {
-    margin:23px 0px 15px 5px;
+    margin:29px 0px 14px 5px;
 }
 h4.uni {
-    margin:-18px 0px 16px 3px;
+    margin:-16px 0px 14px 6px;
 }
 hr {
     border: none;
@@ -51,47 +51,58 @@ hr.edu {
 hr.school {
     margin-bottom: 15px;
     height: 1.5px;
+    width: 100%;
 }
 hr.vuz {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     height: 1.5px;
 }
 img {
     float: left;
-    margin: 12px;
-    padding: auto;
+    margin: 6px 9px 0px 4px;
 }
 p {
-    font-family: tahoma, arial, verdana, sans-serif, "Lucida Sans";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    margin-top: 17px;
+    margin-top: 19px;
     margin-bottom: 8px;
-    letter-spacing: 0.5px;
+    margin-left: 5px;
 }
 div.field {    
-    margin-bottom: 20px;
+    margin-bottom: 21px;
   }
-div.field label {
+.fio label {
     display: block;
     float: left;
     width: 80px;
     height: 26px;
-    margin-top: 2px;
     text-align: right;
     margin-right: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
     color: #646262;
 }
-input {
-    height: 14px;
-    padding:6px 20px 3px 20px;
+.fio input {
+    height: 21px;
+    width: 205px;
+    margin-top: 1px;
+    margin-bottom: -1.5px;
 }
+
 input[type="password"]{
     margin-bottom: 45px;
+    margin-left: -2px;
 }
 form {
-    margin-top: -1px;
+    margin-left: -1px;
+}
+.educ {
+    margin-bottom: -2px;
+    margin-left: 1px;
+}
+.gorod {
+    margin-bottom: -6px;
+    margin-left: -4px;
 }
 select {
     background: #fff;
@@ -100,9 +111,10 @@ select {
     color: black;
     width: 206px;
     text-align: right;
-    margin-left: 10px;
+    margin-left: 11px;
     font-size: 16px;
     height: 24px; 
+    margin-bottom: -1px;
 }
 select option {
     font-size:16px;
@@ -116,32 +128,30 @@ select option {
     margin-left: 30px;
     font-size: 18px;
 }
-.city select{
-    margin-top:5px;
-}
 label.school {
-    margin-left: 25px;
+    margin-left: 26px;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #646262;
+    color: #adadad;
 }
 .school{
-    height: 23px;
-    margin-left: 2px;
-    padding-right: 2px;   
+    height: 24px;
+    margin-left: 1px;
+    width: 210px; 
 }
 
 .uni{
-    margin-left: 50px;
+    margin-left: 48px;
     padding-top: 10px;
+    
 }
 .btn {
     height: 28px;
-    margin-top: 35px;
-    padding:0px 48px 0px 48px;
+    margin-top: 36px;
+    padding:3px 48px 0px 48px;
     margin-left: 42px;
     font-size: 17px;
-    margin-bottom: -4px;
+    margin-bottom: -3px;
 }
 .comment{
     font-size: 14px;
@@ -168,17 +178,19 @@ label.comment {
     font-size: 13px;
 }
 label.comment_city {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Verdana', Tahoma, Geneva, Verdana, sans-serif;
     color: #7b7676;
-    font-size: 14px;
-    font-weight: bolder;
-    padding-left: 102px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 100px;
+    margin-left: 2px;
 }
 .comm {
     display: inline;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Verdana', Tahoma, Geneva, Verdana, sans-serif;
     color: #adadad;
     font-size: 13px;
+    letter-spacing: 0.002p;
 }
 label.country {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -193,4 +205,7 @@ label.city {
     font-size: 13px;
     margin-left: 33px;
     font-size: 18px;
+}
+label.uni {
+    color: #adadad;
 }
