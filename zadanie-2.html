@@ -11,12 +11,12 @@
   <header>
     <h2>Регистрация</h2>
     <hr class="reg">
-        <p><img src="images/VK-0.jpg" width="40px" height="40px"><b>ВКонтакте.ру</b>- сетевой проект, который поможет Вам узнать больше о людях, которые Вас<br>окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете<br>делиться информацией, ограничивая круг лиц, которым она будет доступна. </p>
+        <p><img src="images/VK-0.jpg" width="45px" height="45px"><b>ВКонтакте.ру</b> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас<br>окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете<br>делиться информацией, ограничивая круг лиц, которым она будет доступна. </p>
   </header>
   <main>
       <h3>Имя</h3>
       <hr class="name">
-        <form action="/signup" method="post">
+        <form class="fio" action="/signup" method="post">
           <div class="field">
             <label>Имя:</label>
             <input type="text" name="name" />
@@ -38,15 +38,15 @@
         </form>
         <h3 class="obr">Образование</h3>
         <hr class="edu">
-          <form>
+          <form class="educ">
             <label class="country">Страна:</label>
             <select name="country">
-              <option>Беларусь</option>
               <option>Россия</option>
+              <option>Беларусь</option>
               <option>Украина</option>
             </select>
            </form><br>
-           <form>
+           <form class="gorod">
             <label class="city">Город:</label>
             <select name="city">
                 <option>Минск</option>
@@ -61,7 +61,7 @@
         <hr class="school">
             <label class="school">Школа:&nbsp;</label>  
             <select class="school">
-              <option>-Выберите школу-</option>
+              <option>-  Выберите школу -</option>
               <option>СШ №154</option>
               <option>СШ №164</option>
               <option>СШ №117</option>
@@ -73,7 +73,7 @@
         <hr class="vuz">
             <label class="uni">ВУЗ:&nbsp;</label>
                   <select name="uni">
-                  <option>-Выберите ВУЗ-</option>
+                  <option>-  Выберите ВУЗ -</option>
                   <option>Академия Управления</option>
                   <option>БГУ</option>
                   <option>БГЭУ</option>
